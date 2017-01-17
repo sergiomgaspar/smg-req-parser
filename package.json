@@ -1,0 +1,24 @@
+{
+  "name": "@sergiomgaspar/sandbox",
+  "version": "1.0.2",
+  "description": "FCC Request Parser",
+  "main": "req_parser.js",
+  "scripts": {
+    "start": "node req_parser.js",
+    "test": "node req_parser.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiomgaspar/smg-req-parser.git"
+  },
+  "author": "sergiomgaspar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergiomgaspar/smg-req-parser/issues"
+  },
+  "homepage": "https://github.com/sergiomgaspar/smg-req-parser#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
